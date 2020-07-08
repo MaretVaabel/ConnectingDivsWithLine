@@ -1,0 +1,8 @@
+värvid korda, et paarid ja joon oleksid ühte värvi (värvid paigas, jooni ei saanud miskipärast)
+joon peab tulema div äärest (olemas)
+proovida ka jQuery FieldsLinker'it(See ei töötanud)
+https://www.jqueryscript.net/other/Dynamic-Lines-Lists-FieldsLinker.html
+proovida jsPlumb'i(see töötab ja näib päris hea välja)
+kontroll nupp alla (ei saa, sest küsimuste div'id on loodud for'tsükliga ning selle suurust ei näita div)
+jooni pole mobiili vaates (tehtud)
+tulemus nupu ja div'ide vahele - tehtud

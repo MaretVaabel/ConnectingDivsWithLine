@@ -1,0 +1,71 @@
+@import url('http://getbootstrap.com/2.3.2/assets/css/bootstrap.css');
+body{
+ text-align: center; 
+ position: relative;
+
+}
+#questions{
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+#answers{
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.row {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: white;
+  border-radius: 10%;
+  margin: 5px;
+  font-size:30px;
+  border: none;
+}
+
+.row:hover {
+  background: lightgoldenrodyellow;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color:rgb(197, 189, 189);
+  color: white;
+}
+.text{
+  padding: 10px;
+}
+#tulemus{
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+
+.row {
+width: 80px;
+height: 50px;
+font-size:25px;
+  }
+.button {
+  font-size: 12px;
+  padding: 8px 15px;
+}
+#tulemus{
+  font-size: 12px;
+}
+}
